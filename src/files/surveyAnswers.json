@@ -1,0 +1,16 @@
+[
+  {
+    "surveyId": "d0c73643-8125-43dc-b400-b74eca4f491b",
+    "userId": "user1",
+    "answers": [
+      {
+        "questionId": 1,
+        "optionId": 3
+      },
+      {
+        "questionId": 2,
+        "optionId": 3
+      }
+    ]
+  }
+]

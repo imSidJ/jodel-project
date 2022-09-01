@@ -1,43 +1,26 @@
-# 🧰 Simple TypeScript Starter | 2022
+# Jodel Survey Project
 
-> We talk about a lot of **advanced Node.js and TypeScript** concepts on [the blog](https://khalilstemmler.com), particularly focused around Domain-Driven Design and large-scale enterprise application patterns. However, I received a few emails from readers that were interested in seeing what a basic TypeScript starter project looks like. So I've put together just that.
+## Details
 
-### Features
-
-- Minimal
-- TypeScript v4
-- Testing with Jest
-- Linting with Eslint and Prettier
-- Pre-commit hooks with Husky
-- VS Code debugger scripts
-- Local development with Nodemon
-
-### Scripts
-
-#### `npm run start:dev`
-
-Starts the application in development using `nodemon` and `ts-node` to do hot reloading.
+### Starting the app
 
 #### `npm run start`
 
 Starts the app in production by first building the project with `npm run build`, and then executing the compiled JavaScript at `build/index.js`.
 
-#### `npm run build`
+### APIs
 
-Builds the app at `build`, cleaning the folder first.
+View API Documentation - https://documenter.getpostman.com/view/17808781/VUxPvTHb
 
-#### `npm run test`
+### Testing the app
 
-Runs the `jest` tests once.
+You can use the following postman collection to test the APIs-
+https://www.getpostman.com/collections/f04aa92910bfe27da72d
 
-#### `npm run test:dev`
+### Remarks
 
-Run the `jest` tests in watch mode, waiting for file changes.
-
-#### `npm run prettier-format`
-
-Format your code.
-
-#### `npm run prettier-watch`
-
-Format your code in watch mode, waiting for file changes.
+- Using json files to store the data. Usually would store in a external database.
+- Enhancements that can be made
+  - Add request validations
+  - Multiple choice in options
+  - Handle more errors

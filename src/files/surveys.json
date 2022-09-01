@@ -1,0 +1,53 @@
+[
+  {
+    "name": "survey 1",
+    "description": "description 1",
+    "questions": [
+      {
+        "question": "What is your favourite color",
+        "options": [
+          {
+            "id": 1,
+            "option": "red"
+          },
+          {
+            "id": 2,
+            "option": "green"
+          },
+          {
+            "id": 3,
+            "option": "blue"
+          },
+          {
+            "id": 4,
+            "option": "orange"
+          }
+        ],
+        "id": 1
+      },
+      {
+        "question": "What is your favourite food",
+        "options": [
+          {
+            "id": 1,
+            "option": "Pizza"
+          },
+          {
+            "id": 2,
+            "option": "Burger"
+          },
+          {
+            "id": 3,
+            "option": "Fries"
+          },
+          {
+            "id": 4,
+            "option": "Coke"
+          }
+        ],
+        "id": 2
+      }
+    ],
+    "id": "d0c73643-8125-43dc-b400-b74eca4f491b"
+  }
+]
